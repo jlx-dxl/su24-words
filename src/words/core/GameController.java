@@ -265,7 +265,7 @@ public class GameController {
             {
                 // Award them the points
                 int Currscore = Scrabble.getWordScore(playerword);
-                if(playerword.length() == 7)
+                if(playerword.length() >= 7)
                 {
                     Currscore = Currscore + 50;
                 }

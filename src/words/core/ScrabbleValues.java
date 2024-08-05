@@ -5,12 +5,12 @@ public final class ScrabbleValues {
     public static int getWordScore(String word)
     {
     	/* assume word is in dictionary */
-    	if(word.length() > 7) {
-    		return 0;
-    	}
+    	//if(word.length() > 7) {
+    	//	return 0;
+    	//}
         // Lets compute the score.
         int score = 0;
-        if(word.length() == 7) {
+        if(word.length() >= 7) {
         	score += 50;
         }
         

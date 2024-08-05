@@ -27,8 +27,8 @@ If there is a tie for the high bid, the simulator will choose among the highest 
 After all _8p_ letters have been auctioned off in the round, each player tries to make as high-scoring a word as they can. 
 A word will be considered valid if and only if it appears in a standard word list that we will supply. 
 The score of the word is based on the points associated with the letters (see table below). 
-In addition, a player who uses all words letters receives a 50 point bonus. 
-There is no bonus for words containing fewer than words letters. 
+In addition, a player who uses all 7 letters receives a 50 point bonus. 
+There is no bonus for words containing fewer than 7 letters. 
 The score is added to the player's total score, and the game continues with the next round. 
 
 
